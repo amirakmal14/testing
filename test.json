@@ -1,0 +1,16 @@
+{
+    "pipeline": {
+      "name": "add"
+    },
+    "input": {
+      "atom": {
+        "glob": "/*",
+        "repo": "test"
+      }
+    },
+    "transform": {
+      "image":"schickling/octave",
+      "cmd": ["octave", "/matrices.m"],
+      "stdin":[]              
+    }
+}
