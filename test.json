@@ -10,7 +10,7 @@
     },
     "transform": {
       "image":"schickling/octave",
-      "cmd": ["octave", "/matrices.m"],
-      "stdin":[]              
+      "cmd": ["octave"],
+      "stdin":["run matrices.m"]              
     }
 }
